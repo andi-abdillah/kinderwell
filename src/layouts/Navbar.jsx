@@ -29,31 +29,13 @@ export default function Navbar() {
     },
   ];
 
-  const getBackgroundClass = () => {
-    switch (location.pathname) {
-      case "/":
-        return "bg-primary";
-      case "/health":
-        return "bg-secondary";
-      case "/feelings":
-        return "bg-tertiary";
-      default:
-        return "";
-    }
+  const CLASS_MAP = {
+    "/": { background: "bg-primary", text: "text-primary" },
+    "/health": { background: "bg-secondary", text: "text-secondary" },
+    "/feelings": { background: "bg-tertiary", text: "text-tertiary" },
   };
 
-  const getTextClass = () => {
-    switch (location.pathname) {
-      case "/":
-        return "text-primary";
-      case "/health":
-        return "text-secondary";
-      case "/feelings":
-        return "text-tertiary";
-      default:
-        return "";
-    }
-  };
+  const currentClasses = CLASS_MAP[location.pathname] || {};
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -66,7 +48,7 @@ export default function Navbar() {
     <nav
       className={`navbar fixed inset-x-0 top-0 px-5 lg:px-12 py-3 text-white transition duration-300 ease-in-out z-[9999] ${
         isScrolled ? "drop-shadow-lg" : ""
-      } ${getBackgroundClass()}`}
+      } ${currentClasses.background}`}
     >
       <div className="navbar-start">
         <div className="dropdown">
@@ -88,11 +70,20 @@ export default function Navbar() {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className={`menu menu-sm dropdown-content mt-5 -ml-3 z-[1] p-4 shadow ${currentClasses.background} rounded-box w-52`}
           >
-            <li>
-              <a>Item 1</a>
+            <li className="flex flex-row gap-1 items-center">
+              <Link className="text-xl w-full py-2" to="/">
+                Home
+              </Link>
             </li>
+            {PATHS.map((path, index) => (
+              <li key={index} className="flex flex-row gap-1 items-center">
+                <Link className="text-xl w-full py-2" to={path.to}>
+                  {path.label}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
         <Link to="/" className="hidden md:inline text-2xl font-bold">
@@ -110,7 +101,7 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className={`btn rounded-full md:text-lg ${getTextClass()}`}>
+        <a className={`btn rounded-full md:text-lg ${currentClasses.text}`}>
           Contact Us
         </a>
       </div>
