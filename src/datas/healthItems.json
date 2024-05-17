@@ -1,0 +1,111 @@
+[
+  {
+    "title": "Looking after my teeth",
+    "slug": "looking-after-my-teeth",
+    "caption": "Guard your smile! Take good care of your teeth for a lifetime of joy.",
+    "description": "Teeth are very important, and you need to take really good care of them because they need to last you your whole lifetime",
+    "content": "<p>You can make sure your teeth are healthy by:</p><ul><li>Not eating too many sweets</li><li>Brushing your teeth for at least two minutes, twice a day using a squirt of toothpaste (Tip: a timer is useful for measuring two minutes)</li><li>Changing your toothbrush every three to four months to stop it wearing out</li><li>Making sure you brush every bit of each tooth – front and back, top and bottom!</li><li>Visiting your dentist at least once a year</li></ul><p><strong>Did You Know?</strong><br>By the time you are an adult, you will have 32 teeth. You start with 20 baby teeth, which begin falling out when you are about six years old.</p>",
+    "quiz": {
+      "question": "How often do toothbrushes need to be changed?",
+      "options": [
+        { "A": "Every year", "isCorrect": false },
+        { "B": "Every day", "isCorrect": false },
+        { "C": "Every three to four months", "isCorrect": true }
+      ]
+    },
+    "image": "teeth.svg",
+    "color": "#3a62dd",
+    "background": "bg-[#3a62dd]",
+    "quizImage": "quiz-boy.png"
+  },
+  {
+    "title": "Keeping active",
+    "slug": "keeping-active",
+    "caption": "Let's play and stay healthy! Explore fun ways to stay active and fit.",
+    "description": "Being active is great fun, and very good for your health! Find out about different ways you can get moving and be fitter.",
+    "content": "<p>Being active is not only great fun, it's very good for your health. People who do the recommended amount of exercise each week live longer and are happier and healthier than those who don’t. So what are you waiting for?</p><p>Jump for joy! There are endless ways to be fit and active: running around with your friends, riding your bike or taking your scooter to the skate park. Swimming, dancing, football, roller skating, martial arts, playing hide and seek or tag, building a den or playing rugby or gymnastics… whatever you enjoy!</p><p>It’s good to mix up the type of activity you’re doing though – this makes sure you are helping your heart, your muscles, and your bones to grow healthy and strong.</p><p><strong>Did You Know?</strong><br>You need to be doing an hour's activity every day.</p>",
+    "quiz": {
+      "question": "Regular exercise helps your muscles, bones and what other part of the body grow healthy and strong?",
+      "options": [
+        { "A": "Hair", "isCorrect": false },
+        { "B": "Heart", "isCorrect": true },
+        { "C": "Ears", "isCorrect": false }
+      ]
+    },
+    "image": "active-kid.svg",
+    "color": "#eb4312",
+    "background": "bg-[#eb4312]"
+  },
+  {
+    "title": "Eating healthy",
+    "slug": "eating-healthy",
+    "caption": "Nourish your body for a healthier you! Discover the joys of eating well.",
+    "description": "Eating nutritious food is crucial for your well-being. Learn about the importance of a balanced diet and make choices that benefit your body.",
+    "content": "<p>Ensuring a balanced diet is essential for a healthy lifestyle. Here are some tips to eat healthy:</p><ul><li>Include a variety of fruits and vegetables in your meals</li><li>Choose whole grains over refined grains</li><li>Limit your intake of sugary snacks and beverages</li><li>Incorporate lean proteins like fish, poultry, and legumes</li><li>Stay hydrated by drinking plenty of water throughout the day</li></ul><p>Remember, a nutritious diet provides your body with the necessary nutrients to function at its best.</p>",
+    "quiz": {
+      "question": "What is essential for a healthy lifestyle?",
+      "options": [
+        { "A": "Skipping meals", "isCorrect": false },
+        { "B": "Balanced diet", "isCorrect": true },
+        { "C": "Eating only sweets", "isCorrect": false }
+      ]
+    },
+    "image": "healthy-food.svg",
+    "color": "#15803D",
+    "background": "bg-[#15803D]"
+  },
+  {
+    "title": "Sweet dreams sleep",
+    "slug": "sweet-dreams-sleep",
+    "caption": "Rest like a superhero! Learn why good sleep is your superpower.",
+    "description": "Sleeping well is like magic for your body. Find out why it's super important and how to have sweet dreams every night.",
+    "content": "<p>Having super sleep is important for your body. Here are some tricks to sleep well:</p><ul><li>Go to bed at the same time every night</li><li>Do something calming before bedtime, like reading a story</li><li>Make your sleep place comfy, cool, and dark</li><li>Avoid using gadgets before bedtime</li><li>Try not to have too much chocolate or soda in the evening</li></ul><p>Super sleep helps your body and mind stay strong and happy!</p>",
+    "quiz": {
+      "question": "What's a good thing to do before bedtime?",
+      "options": [
+        { "A": "Eat lots of candy", "isCorrect": false },
+        { "B": "Read a bedtime story", "isCorrect": true },
+        { "C": "Play video games", "isCorrect": false }
+      ]
+    },
+    "image": "sleeping-kid.svg",
+    "color": "#51a1b8",
+    "background": "bg-[#51a1b8]"
+  },
+  {
+    "title": "Sunshine vitamin fun",
+    "slug": "sunshine-vitamin-fun",
+    "caption": "Boost your mood with sunshine! Learn why Vitamin D is like a happy superhero.",
+    "description": "Getting sunlight is super cool! Find out why it's like having a happy superhero in your life and how it helps you stay strong and cheerful.",
+    "content": "<p>Sunshine is like magic for your mood! Here's how to get your daily dose:</p><ul><li>Play outside and enjoy the sunlight</li><li>Have fun activities in the garden or park</li><li>Eat foods with Vitamin D, like eggs and fish</li><li>Wear your superhero sunglasses to protect your eyes</li><li>Share sunny smiles with friends and family</li></ul><p>Remember, a little sunshine goes a long way to make you feel happy!</p>",
+    "quiz": {
+      "question": "What helps your mood and makes you feel happy?",
+      "options": [
+        { "A": "Eating lots of chocolate", "isCorrect": false },
+        { "B": "Playing outside in the sunshine", "isCorrect": true },
+        { "C": "Watching TV all day", "isCorrect": false }
+      ]
+    },
+    "image": "sunshine-fun.svg",
+    "color": "#ffb713",
+    "background": "bg-[#ffb713]"
+  },
+  {
+    "title": "Happy hygiene heroes",
+    "slug": "happy-hygiene-heroes",
+    "caption": "Learn the superhero secrets to staying clean, healthy, and ready for adventures.",
+    "description": "Being a hygiene hero is awesome! Discover the superhero secrets to staying clean, healthy, and ready for all the exciting adventures ahead.",
+    "content": "<p>Get ready for superhero hygiene! Here's how to be a hygiene hero every day:</p><ul><li>Wash your hands to fight off germ villains</li><li>Brush your teeth twice a day for a superhero smile</li><li>Take a bath or shower to stay fresh and clean</li><li>Cover your mouth when you cough or sneeze, like a superhero cape</li><li>Wear your hygiene hero cape with pride!</li></ul><p>Being a hygiene hero keeps you and everyone around you safe and healthy!</p>",
+    "quiz": {
+      "question": "What's a superhero secret to staying clean and healthy?",
+      "options": [
+        { "A": "Never washing your hands", "isCorrect": false },
+        { "B": "Washing hands to fight off germs", "isCorrect": true },
+        { "C": "Eating without brushing your teeth", "isCorrect": false }
+      ]
+    },
+    "image": "hygiene-doctor.svg",
+    "color": "#dc2626",
+    "background": "bg-[#dc2626]"
+  }
+]
