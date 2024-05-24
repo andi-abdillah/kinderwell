@@ -35,7 +35,18 @@ export default function Navbar() {
     "/feelings": { background: "bg-tertiary", text: "text-tertiary" },
   };
 
-  const currentClasses = CLASS_MAP[location.pathname] || {};
+  const getClassFromPath = (path) => {
+    switch (true) {
+      case path.includes("/health"):
+        return CLASS_MAP["/health"];
+      case path.includes("/feelings"):
+        return CLASS_MAP["/feelings"];
+      default:
+        return CLASS_MAP["/"];
+    }
+  };
+
+  const currentClasses = getClassFromPath(location.pathname);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -73,12 +84,22 @@ export default function Navbar() {
             className={`menu menu-sm dropdown-content mt-5 -ml-3 z-[1] p-4 shadow ${currentClasses.background} rounded-box w-52`}
           >
             <li className="flex flex-row gap-1 items-center">
-              <Link className="text-xl w-full py-2" to="/">
+              <Link
+                className={`text-xl w-full py-2 ${
+                  location.pathname === "/" ? "text-[#ffc858]" : ""
+                }`}
+                to="/"
+              >
                 Home
               </Link>
             </li>
             {PATHS.map((path, index) => (
-              <li key={index} className="flex flex-row gap-1 items-center">
+              <li
+                key={index}
+                className={`flex flex-row gap-1 items-center ${
+                  location.pathname.includes(path.to) ? "text-black" : ""
+                }`}
+              >
                 <Link className="text-xl w-full py-2" to={path.to}>
                   {path.label}
                 </Link>
@@ -93,7 +114,12 @@ export default function Navbar() {
       <div className="navbar-center hidden lg:flex">
         <ul className="flex gap-5 font-semibold text-xl">
           {PATHS.map((path, index) => (
-            <li key={index} className="flex gap-1 items-center">
+            <li
+              key={index}
+              className={`flex gap-1 items-center ${
+                location.pathname.includes(path.to) ? "text-[#ffc858]" : ""
+              }`}
+            >
               <Icon style={{ fontSize: "2rem" }}>{path.icon}</Icon>
               <Link to={path.to}>{path.label}</Link>
             </li>

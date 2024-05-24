@@ -10,7 +10,7 @@ export default function HealthItems() {
           <div
             key={index}
             style={{ backgroundColor: item.color }}
-            className={`group flex flex-col items-center w-60 mt-32 hover:scale-105 hover:bg-black/10 shadow-health_card rounded-[80px] transition-500 cursor-pointer`}
+            className="group flex flex-col items-center w-60 mt-32 hover:scale-105 hover:bg-black/10 shadow-health_card rounded-[80px] transition-500 cursor-pointer"
           >
             <img
               className="-mt-24 rounded-[95px] shadow-health_icon border-8 transition-500"

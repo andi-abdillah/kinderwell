@@ -1,5 +1,23 @@
 [
   {
+    "title": "Keeping active",
+    "slug": "keeping-active",
+    "caption": "Let's play and stay healthy! Explore fun ways to stay active and fit.",
+    "description": "Being active is great fun, and very good for your health! Find out about different ways you can get moving and be fitter.",
+    "content": "<p>Being active is not only great fun, it's very good for your health. People who do the recommended amount of exercise each week live longer and are happier and healthier than those who don’t. So what are you waiting for?</p><p>Jump for joy! There are endless ways to be fit and active: running around with your friends, riding your bike or taking your scooter to the skate park. Swimming, dancing, football, roller skating, martial arts, playing hide and seek or tag, building a den or playing rugby or gymnastics… whatever you enjoy!</p><p>It’s good to mix up the type of activity you’re doing though – this makes sure you are helping your heart, your muscles, and your bones to grow healthy and strong.</p><p><strong>Did You Know?</strong><br>You need to be doing an hour's activity every day.</p>",
+    "quiz": {
+      "question": "Regular exercise helps your muscles, bones and what other part of the body grow healthy and strong?",
+      "options": [
+        { "A": "Hair", "isCorrect": false },
+        { "B": "Heart", "isCorrect": true },
+        { "C": "Ears", "isCorrect": false }
+      ]
+    },
+    "image": "active-kid.svg",
+    "color": "#eb4312",
+    "background": "bg-[#eb4312]"
+  },
+  {
     "title": "Looking after my teeth",
     "slug": "looking-after-my-teeth",
     "caption": "Guard your smile! Take good care of your teeth for a lifetime of joy.",
@@ -17,24 +35,6 @@
     "color": "#3a62dd",
     "background": "bg-[#3a62dd]",
     "quizImage": "quiz-boy.png"
-  },
-  {
-    "title": "Keeping active",
-    "slug": "keeping-active",
-    "caption": "Let's play and stay healthy! Explore fun ways to stay active and fit.",
-    "description": "Being active is great fun, and very good for your health! Find out about different ways you can get moving and be fitter.",
-    "content": "<p>Being active is not only great fun, it's very good for your health. People who do the recommended amount of exercise each week live longer and are happier and healthier than those who don’t. So what are you waiting for?</p><p>Jump for joy! There are endless ways to be fit and active: running around with your friends, riding your bike or taking your scooter to the skate park. Swimming, dancing, football, roller skating, martial arts, playing hide and seek or tag, building a den or playing rugby or gymnastics… whatever you enjoy!</p><p>It’s good to mix up the type of activity you’re doing though – this makes sure you are helping your heart, your muscles, and your bones to grow healthy and strong.</p><p><strong>Did You Know?</strong><br>You need to be doing an hour's activity every day.</p>",
-    "quiz": {
-      "question": "Regular exercise helps your muscles, bones and what other part of the body grow healthy and strong?",
-      "options": [
-        { "A": "Hair", "isCorrect": false },
-        { "B": "Heart", "isCorrect": true },
-        { "C": "Ears", "isCorrect": false }
-      ]
-    },
-    "image": "active-kid.svg",
-    "color": "#eb4312",
-    "background": "bg-[#eb4312]"
   },
   {
     "title": "Eating healthy",

@@ -1,11 +1,11 @@
 import { useParams } from "react-router-dom";
-import HealthData from "../../datas/healthItems.json";
+import FeelingsData from "../../datas/feelingsItems.json";
 import { useState, useEffect } from "react";
 import QuizBoy from "../../assets/images/quiz-boy.png";
 import QuizBoyCorrectAnswer from "../../assets/images/quiz-boy-correct-answer.png";
 import QuizBoyWrongAnswer from "../../assets/images/quiz-boy-wrong-answer.png";
 
-export default function HealthDetailPage() {
+export default function FeelingsDetailPage() {
   const { slug } = useParams();
 
   const [data, setData] = useState({});
@@ -16,7 +16,7 @@ export default function HealthDetailPage() {
 
   useEffect(() => {
     const fetchData = () => {
-      const result = HealthData.find((item) => item.slug === slug);
+      const result = FeelingsData.find((item) => item.slug === slug);
       if (result) {
         setData(result);
       }

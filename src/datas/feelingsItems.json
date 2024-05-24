@@ -1,0 +1,113 @@
+[
+  {
+    "title": "Understanding Feelings",
+    "slug": "understanding-feelings",
+    "caption": "Know your emotions! Learn about different feelings and how to express them.",
+    "description": "Feelings are like colors in your heart. Explore different emotions and discover ways to talk about and share them.",
+    "content": "<p>Feelings are like colors in your heart. Here's what you need to know:</p><ul><li>Learn the names of different emotions like happy, sad, angry, and excited</li><li>Understand that it's okay to feel all kinds of emotions</li><li>Talk to someone you trust about how you're feeling</li><li>Express your feelings through drawings, stories, or talking about them</li><li>Remember, everyone feels emotions, and it's important to share them!</li></ul><p>By understanding feelings, you can paint a beautiful picture of your inner world.</p>",
+    "quiz": {
+      "question": "What is important to do with your feelings?",
+      "options": [
+        { "A": "Hide them", "isCorrect": false },
+        { "B": "Share and talk about them", "isCorrect": true },
+        { "C": "Forget about them", "isCorrect": false }
+      ]
+    },
+    "image": "understanding-feelings.svg",
+    "color": "#e5693e",
+    "background": "bg-[#e5693e]"
+  },
+  {
+    "title": "Being Brave",
+    "slug": "being-brave",
+    "caption": "Embrace courage! Discover the power of bravery and facing your fears.",
+    "description": "Being brave means standing tall even when you're scared. Learn how to overcome fear and be courageous.",
+    "content": "<p>Being brave means standing tall even when you're scared. Here's how you can embrace courage:</p><ul><li>Face your fears, one step at a time</li><li>Believe in yourself and your abilities</li><li>Ask for help when you need it</li><li>Take risks and try new things, even if they seem scary</li><li>Remember, bravery isn't the absence of fear, but the strength to face it!</li></ul><p>By being brave, you unleash the superhero within you.</p>",
+    "quiz": {
+      "question": "What does being brave mean?",
+      "options": [
+        { "A": "Never feeling afraid", "isCorrect": false },
+        { "B": "Standing tall even when you're scared", "isCorrect": true },
+        { "C": "Running away from challenges", "isCorrect": false }
+      ]
+    },
+    "image": "being-brave.svg",
+    "color": "#d71b41",
+    "background": "bg-[#d71b41]"
+  },
+  {
+    "title": "Spreading Kindness",
+    "slug": "spreading-kindness",
+    "caption": "Explore the power of spreading love and kindness.",
+    "description": "Kindness is like magic sprinkles that make the world a better place. Learn how small acts of kindness can create big smiles.",
+    "content": "<p>Kindness is like magic sprinkles that make the world brighter. Here's how you can spread kindness:</p><ul><li>Smile at someone who looks sad to cheer them up</li><li>Share your toys or snacks with friends to make them happy</li><li>Say kind words like 'thank you' and 'please' to show you care</li><li>Help someone who needs it, like picking up something they dropped</li><li>Remember, even small acts of kindness can make a big difference!</li></ul><p>By spreading kindness, you become a superhero of the heart.</p>",
+    "quiz": {
+      "question": "What can make the world a better place?",
+      "options": [
+        { "A": "Being mean to others", "isCorrect": false },
+        { "B": "Spreading love and kindness", "isCorrect": true },
+        { "C": "Ignoring people's feelings", "isCorrect": false }
+      ]
+    },
+    "image": "spreading-kindness.svg",
+    "color": "#0a9263",
+    "background": "bg-[#0a9263]"
+  },
+  {
+    "title": "Feeling Grateful",
+    "slug": "feeling-grateful",
+    "caption": "Count your blessings! Discover the joy of being thankful for the good things in life.",
+    "description": "Gratitude is like a warm hug for your heart. Learn how to appreciate the little things and feel happier.",
+    "content": "<p>Gratitude is like a warm hug for your heart. Here's how you can feel more grateful:</p><ul><li>Think about three things you're thankful for every day</li><li>Say 'thank you' to people who help you or make you smile</li><li>Write a thank you note to someone special in your life</li><li>Look for the silver lining in challenging situations</li><li>Remember, there's always something to be grateful for!</li></ul><p>By feeling grateful, you fill your heart with sunshine and rainbows.</p>",
+    "quiz": {
+      "question": "What can help you feel happier?",
+      "options": [
+        { "A": "Complaining about everything", "isCorrect": false },
+        { "B": "Practicing gratitude", "isCorrect": true },
+        { "C": "Ignoring the good things in life", "isCorrect": false }
+      ]
+    },
+    "image": "feeling-grateful.svg",
+    "color": "#325ad5",
+    "background": "bg-[#325ad5]"
+  },
+  {
+    "title": "Mindfulness",
+    "slug": "mindfulness",
+    "caption": "Explore the power of mindfulness and being in the moment.",
+    "description": "Mindfulness is like a superpower that helps you stay calm and focused. Learn techniques to be mindful and enjoy the present.",
+    "content": "<p>Mindfulness is like a superpower that helps you stay calm and focused. Here's how you can practice mindfulness:</p><ul><li>Take deep breaths and focus on your breathing</li><li>Notice the sights, sounds, and sensations around you without judgment</li><li>Practice gratitude by appreciating the little things in life</li><li>Do activities mindfully, like eating or walking, paying attention to each moment</li><li>Remember, mindfulness helps you enjoy the present and reduce stress!</li></ul><p>By practicing mindfulness, you become the master of your own mind.</p>",
+    "quiz": {
+      "question": "What can help you stay calm and focused?",
+      "options": [
+        { "A": "Worrying about the future", "isCorrect": false },
+        { "B": "Practicing mindfulness", "isCorrect": true },
+        { "C": "Ignoring the present moment", "isCorrect": false }
+      ]
+    },
+    "image": "mindfulness.svg",
+    "color": "#3399cc",
+    "background": "bg-[#3399cc]"
+  },
+  {
+    "title": "Bullying",
+    "slug": "bullying",
+    "caption": "Stand up to bullying! Learn about bullying and how to prevent it.",
+    "description": "Bullying is never okay. Discover what bullying is, how it affects others, and what you can do to stop it.",
+    "content": "<p>Bullying is never okay. Here's what you need to know:</p><ul><li>Understand that bullying is when someone hurts or scares another person on purpose</li><li>Know the different types of bullying, like physical, verbal, and cyberbullying</li><li>Speak up if you see someone being bullied or if you're being bullied yourself</li><li>Be a friend to someone who's being bullied and offer support</li><li>Remember, everyone deserves to feel safe and respected!</li></ul><p>By standing up to bullying, you become a hero for kindness and respect.</p>",
+    "quiz": {
+      "question": "What can you do if you see someone being bullied?",
+      "options": [
+        {
+          "A": "Join in and laugh at the person being bullied",
+          "isCorrect": false
+        },
+        { "B": "Speak up and offer support", "isCorrect": true },
+        { "C": "Ignore it and walk away", "isCorrect": false }
+      ]
+    },
+    "image": "bullying.svg",
+    "color": "#9966cc",
+    "background": "bg-[#9966cc]"
+  }
+]
