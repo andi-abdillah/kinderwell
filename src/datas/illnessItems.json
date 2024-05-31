@@ -1,0 +1,113 @@
+[
+  {
+    "title": "Managing Allergies",
+    "slug": "managing-allergies",
+    "caption": "Beat the allergies! Discover ways to manage and reduce allergy symptoms.",
+    "description": "Allergies can make you feel miserable. Learn how to manage them so you can enjoy life to the fullest!",
+    "content": "<p>Managing allergies is essential to living comfortably. Here are some strategies to reduce allergy symptoms:</p><ul><li>Avoid allergens that trigger your symptoms</li><li>Keep indoor air clean by using air purifiers</li><li>Take allergy medications as prescribed by your doctor</li><li>Use allergen-proof covers on pillows and mattresses</li><li>Keep windows closed during high pollen seasons</li></ul><p>By following these tips, you can better manage your allergies and feel better!</p>",
+    "quiz": {
+      "question": "What is one way to manage allergies?",
+      "options": [
+        { "A": "Rolling in the grass", "isCorrect": false },
+        { "B": "Avoiding allergens", "isCorrect": true },
+        { "C": "Breathing in pollen", "isCorrect": false }
+      ]
+    },
+    "image": "allergy.svg",
+    "color": "#6610f2",
+    "background": "bg-[#6610f2]"
+  },
+  {
+    "title": "Fight the Flu",
+    "slug": "fight-the-flu",
+    "caption": "Fight the flu! Learn how to take care of yourself when you're sick.",
+    "description": "The flu can leave you feeling awful. Discover ways to manage symptoms and speed up recovery.",
+    "content": "<p>Dealing with the flu can be tough, but there are ways to ease your symptoms and feel better sooner:</p><ul><li>Get plenty of rest to help your body recover</li><li>Stay hydrated by drinking fluids like water, broth, or herbal tea</li><li>Take over-the-counter medications to relieve fever, aches, and congestion</li><li>Use a humidifier to ease breathing and soothe a sore throat</li><li>Avoid spreading the flu by covering your mouth when coughing or sneezing</li></ul><p>By taking care of yourself and following these tips, you can get through the flu and back to feeling healthy!</p>",
+    "quiz": {
+      "question": "What is one way to ease flu symptoms?",
+      "options": [
+        { "A": "Staying up all night", "isCorrect": false },
+        { "B": "Getting plenty of rest", "isCorrect": true },
+        { "C": "Drinking soda", "isCorrect": false }
+      ]
+    },
+    "image": "flu.svg",
+    "color": "#fd7e14",
+    "background": "bg-[#fd7e14]"
+  },
+  {
+    "title": "Managing Asthma",
+    "slug": "managing-asthma",
+    "caption": "Take control of asthma! Learn how to manage symptoms and live an active life.",
+    "description": "Asthma can make breathing difficult, but with proper management, you can stay healthy and active.",
+    "content": "<p>Managing asthma is crucial for leading a healthy and active life. Here are some strategies to help you keep your asthma under control:</p><ul><li>Take your prescribed asthma medications regularly, as directed by your doctor</li><li>Avoid triggers that worsen your asthma symptoms, such as allergens or pollutants</li><li>Use a peak flow meter to monitor your lung function and identify early signs of an asthma flare-up</li><li>Create an asthma action plan with your healthcare provider to know what to do in case of an asthma attack</li><li>Stay physically active and maintain a healthy lifestyle</li></ul><p>By following these steps and working closely with your healthcare team, you can effectively manage your asthma and enjoy life to the fullest!</p>",
+    "quiz": {
+      "question": "What is one way to manage asthma?",
+      "options": [
+        { "A": "Ignoring symptoms", "isCorrect": false },
+        { "B": "Taking prescribed medications regularly", "isCorrect": true },
+        { "C": "Exposing yourself to allergens", "isCorrect": false }
+      ]
+    },
+    "image": "asthma.svg",
+    "color": "#6610f2",
+    "background": "bg-[#6610f2]"
+  },
+  {
+    "title": "Stomach Bug",
+    "slug": "stomach-bug",
+    "caption": "Help your child feel better! Learn how to manage stomach bugs in children.",
+    "description": "Stomach bugs can cause discomfort and digestive issues in children. Discover ways to ease symptoms and promote recovery.",
+    "content": "<p>Dealing with a stomach bug in children can be challenging, but there are steps you can take to help them feel better:</p><ul><li>Ensure your child gets plenty of rest to aid recovery</li><li>Encourage them to stay hydrated by drinking small sips of water, clear broth, or an electrolyte solution</li><li>Offer bland foods like bananas, rice, applesauce, and toast (BRAT diet) once they can keep food down</li><li>Avoid giving them sugary or fatty foods which can worsen symptoms</li><li>Monitor their symptoms and consult a healthcare provider if they do not improve</li></ul><p>By providing care and support, you can help your child recover from a stomach bug more quickly.</p>",
+    "quiz": {
+      "question": "What is one way to ease stomach bug symptoms in children?",
+      "options": [
+        { "A": "Giving them sugary foods", "isCorrect": false },
+        { "B": "Encouraging them to stay hydrated", "isCorrect": true },
+        { "C": "Keeping them very active", "isCorrect": false }
+      ]
+    },
+    "image": "stomach-bug.svg",
+    "color": "#ffc107",
+    "background": "bg-[#ffc107]"
+  },
+  {
+    "title": "Headache",
+    "slug": "headache",
+    "caption": "Help your child feel better! Learn how to manage headaches in children.",
+    "description": "Headaches can be uncomfortable for children. Discover ways to ease the pain and promote well-being.",
+    "content": "<p>Dealing with a headache in children can be challenging, but there are steps you can take to help them feel better:</p><ul><li>Ensure they get plenty of rest in a quiet, dark room</li><li>Encourage them to drink water and stay hydrated</li><li>Apply a cool compress to their forehead to ease pain and reduce inflammation</li><li>Give them over-the-counter pain relievers suitable for children, as directed by a healthcare provider</li><li>Teach them relaxation techniques such as deep breathing or visualization to manage stress</li></ul><p>By providing care and support, you can help your child find relief from headaches and improve their well-being.</p>",
+    "quiz": {
+      "question": "What is one way to ease headache symptoms in children?",
+      "options": [
+        { "A": "Encouraging them to stay in a noisy room", "isCorrect": false },
+        {
+          "B": "Applying a cool compress to their forehead",
+          "isCorrect": true
+        },
+        { "C": "Giving them caffeinated drinks", "isCorrect": false }
+      ]
+    },
+    "image": "headache.svg",
+    "color": "#007bff",
+    "background": "bg-[#007bff]"
+  },
+  {
+    "title": "Tooth Ache",
+    "slug": "tooth-ache",
+    "caption": "Help your child feel better! Learn how to manage tooth aches in children.",
+    "description": "Tooth aches can be very uncomfortable for children. Discover ways to ease the pain and promote oral health.",
+    "content": "<p>Dealing with a tooth ache in children can be challenging, but there are steps you can take to help them feel better:</p><ul><li>Rinse their mouth with warm salt water to reduce inflammation</li><li>Use over-the-counter pain relievers suitable for children, as directed by a healthcare provider</li><li>Apply a cold compress to the outside of their cheek to numb the pain and reduce swelling</li><li>Avoid giving them very hot, cold, or sugary foods that may worsen the pain</li><li>Schedule a visit to the dentist to determine the cause and appropriate treatment</li></ul><p>By providing care and consulting with a dentist, you can help your child recover from a tooth ache more comfortably.</p>",
+    "quiz": {
+      "question": "What is one way to ease tooth ache symptoms in children?",
+      "options": [
+        { "A": "Giving them sugary foods", "isCorrect": false },
+        { "B": "Rinsing their mouth with warm salt water", "isCorrect": true },
+        { "C": "Ignoring the pain", "isCorrect": false }
+      ]
+    },
+    "image": "tooth-ache.svg",
+    "color": "#d9534f",
+    "background": "bg-[#d9534f]"
+  }
+]

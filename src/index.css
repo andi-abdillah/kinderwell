@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-primary: theme("colors.primary");
+  --color-secondary: theme("colors.secondary");
+  --color-tertiary: theme("colors.tertiary");
+  --color-quaternary: theme("colors.quaternary");
+}
+
 @layer base {
   html {
     @apply font-dosis tracking-wide text-lg;
@@ -33,7 +40,7 @@
   }
 
   .curve-divider .shape-fill {
-    fill: #3d37cc;
+    fill: var(--color-secondary);
   }
 
   .waves-divider {
@@ -54,6 +61,25 @@
   }
 
   .waves-divider .shape-fill {
-    fill: #d00428;
+    fill: var(--color-tertiary);
+  }
+
+  .trapezoid {
+    width: max-content;
+    height: fit-content;
+    margin: 15px;
+    position: relative;
+  }
+
+  .trapezoid::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: lightblue;
+    border-radius: 15px;
+    transform: perspective(200px) rotateY(-30deg);
   }
 }

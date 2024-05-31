@@ -7,6 +7,9 @@ import HealthDetailPage from "./pages/health/HealthDetailPage";
 import FeelingsLayout from "./pages/feelings/FeelingsLayout";
 import FeelingsItems from "./pages/feelings/FeelingsItems";
 import FeelingsDetailPage from "./pages/feelings/FeelingsDetailPage";
+import IllnessLayout from "./pages/illness/IllnessLayout";
+import IllnessItems from "./pages/illness/IllnessItems";
+import IllnessDetailPage from "./pages/illness/IllnessDetailPage";
 
 function App() {
   return (
@@ -21,6 +24,10 @@ function App() {
           <Route path="feelings" element={<FeelingsLayout />}>
             <Route index element={<FeelingsItems />} />
             <Route path=":slug" element={<FeelingsDetailPage />} />
+          </Route>
+          <Route path="illness" element={<IllnessLayout />}>
+            <Route index element={<IllnessItems />} />
+            <Route path=":slug" element={<IllnessDetailPage />} />
           </Route>
         </Route>
       </Routes>

@@ -6,9 +6,11 @@ export default {
     extend: {
       colors: {
         primary: "#007a6a",
-        secondary: "#3d37cc",
+        secondary: "#126187",
         // tertiary: "#da3d27",
-        tertiary: "#6457d5",
+        // tertiary: "#6457d5",
+        tertiary: "#d00428",
+        quaternary: "#7400a9",
       },
       fontFamily: {
         boogaloo: ["Boogaloo", "sans-serif"],
